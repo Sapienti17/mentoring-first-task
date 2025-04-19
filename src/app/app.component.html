@@ -1,28 +1,53 @@
 <div class="container">
-  <div class="main-container">
-    <header class="header">
-      <div class="header__nav-bar">
-        <a href="/" class="header__nav-bar--logo">
-          <img src="../assets/img/Logo.svg" alt="Логотип">
-        </a>
-        <nav>
-          <a href="/" class="header__nav-bar--item">Главная</a>
-          <a href="/" class="header__nav-bar--item">О компании</a>
-          <a href="/" class="header__nav-bar--item">Каталог</a>
+  <header class="header">
+    <div class="header__left">
+      <a href="/" class="header__left--logo">
+        <img src="../assets/img/logo.svg" alt="Логотип">
+      </a>
+      <nav>
+        <a href="/" class="header__left--item">Главная</a>
+        <a href="/" class="header__left--item">О компании</a>
+        <a href="/" class="header__left--item">Каталог</a>
+      </nav>
+    </div>
+    <div class="header__right">
+      <a href="/" class="header__right--contacts">
+        <img src="../assets/img/phone.svg" alt="Контактный номер">
+        <p class="header__right--phone">+7 (965) 084-29-29</p>
+      </a>
+      <a href="/" class="header__right--selected">
+        <img src="../assets/img/heart.svg" alt="Избранное">
+      </a>
+      <button class="header__right-button">
+        <img src="../assets/img/shopping-cart.png" class="header__right-button-img" alt="Корзина">
+        Пусто</button>
+    </div>
+  </header>
+  <div class="header-subtitle">
+    <div class="header-subtitle__left">
+      <div class="header-subtitle__list">
+        <button class="header-subtitle-list__burger-menu">
+          <img src="../assets/img/burger_menu.svg" alt="Каталог">
+        </button>
+        <nav class="header-subtitle__nav">
+          <a href="/" class="header-subtitle-nav__link">Каталог</a>
+          <a href="/" class="header-subtitle-nav__link">Стройматериалы</a>
+          <a href="/" class="header-subtitle-nav__link">Инструменты</a>
+          <a href="/" class="header-subtitle-nav__link">Электрика</a>
+          <a href="/" class="header-subtitle-nav__link">Интерьер и одежда</a>
         </nav>
       </div>
-      <div class="header__contacts">
-        <a href="/" class="header__contacts--phone">
-          <img src="../assets/img/Phone.svg" alt="Контактный номер">
-          <p>+7 (965) 084-29-29</p>
-        </a>
-        <a href="/">
-          <img src="../assets/img/Heart.svg" alt="Избранное">
-        </a>
-        <button>
-          <img src="../assets/img/Buying.svg" alt="Корзина">
-          Пусто</button>
+      <div class="header-subtitle__search">
+        <div class="header-subtitle__input">
+          <input class="header-subtitle-input__item" type="text"
+            placeholder="Поиск, например Круг зачистной ">
+          <img class="header-subtitle__input--searchimg" src="../assets/img/Search.svg" alt="Поиск">
+        </div>
+        <div class="header-subtitle__location">
+          <img src="../assets/img/location.svg" alt="Локация">
+          <p class="header-subtitle__city">Москва</p>
+        </div>
       </div>
-    </header>
+    </div>
   </div>
 </div>
